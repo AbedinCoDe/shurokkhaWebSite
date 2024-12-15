@@ -255,8 +255,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
-
 
 .text_color {
     color: #0d7b2c;
@@ -268,6 +268,9 @@ body{
     background-color: #8080802e;
     padding: 9px;
     border-radius: 50%;
+}
+.all_Call{
+    text-align: center;
 }
 .all_Call img {
     background-color: #8080802e;
@@ -316,7 +319,43 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 /* downlaod section End here */
+
+
+
+/* footer section start here */
+.footer_Container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+.footer_wrapper{
+    background-color: #f26d3e;
+    padding:45px;
+}
+
+.footer_menu ul li{
+    list-style-type: none;
+}
+.footer_menu ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 26px;
+    font-weight: bold;
+}
+.footer_menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.ict h3, .Affiliates h3 {
+    color: white;
+    margin-bottom: 13px;
+}
+
+/* footer section End here */
+
