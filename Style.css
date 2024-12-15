@@ -84,7 +84,7 @@ body{
 
 /* navbar style End here*/
 
-/* banner style part start here */
+/* banner style part start here -----------------------------------------*/
 
 
 .banner {
@@ -113,6 +113,7 @@ body{
     height: 400px;
     justify-content: space-between;
     position: relative;
+    transition: .3s ease-in-out;
 }
 
 .banner_left::before {
@@ -123,6 +124,10 @@ body{
     background-color: #092753;
     position: absolute;
     left: 11%;
+}
+
+.banner_left:hover{
+    background-color: #daedff;
 }
 
 .vacReg1 {
@@ -145,7 +150,7 @@ body{
     width: 300px;
     text-decoration: none;
     background-color: white;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 20px;
     border-radius: 8px;
     margin-top: 15px;
@@ -163,6 +168,7 @@ body{
 .banner_right p {
     font-size: 24px;
     font-weight: 600;
+    color: black;
 }
 
 .banner_right .version1::before {
@@ -223,3 +229,86 @@ body{
     background-color: #dafdff;
 }
 
+/* banner style part End here -----------------------------------------*/
+
+
+/* Contact use call center style start here  -----------------------------------*/
+
+.contact_us{
+    position: relative;
+}
+
+.contact_Container {
+    display: flex;
+    justify-content: space-around;
+    padding: 36px 28px;
+    box-shadow: 0 4px 4px hsla(0, 0%, 72.5%, .25);
+    background-color: white;
+    position: relative;
+    top: -39px;
+    left: 0;
+}
+
+.dial_Hotline, .national_Call, .health_portal, .IEDCR, .Covid_19 {
+    border-right: 1px solid #b0b0b0;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.text_color {
+    color: #0d7b2c;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.dial_Hotline img {
+    background-color: #8080802e;
+    padding: 9px;
+    border-radius: 50%;
+}
+.all_Call img {
+    background-color: #8080802e;
+    padding: 9px;
+    border-radius: 50%;
+}
+/* Contact use call center style End here  -----------------------------------*/
+
+
+
+/* Covid 19 vaccine verification start here  */
+
+.Covid_19_Wrapper{
+    box-shadow: 0 4px 4px hsla(0, 0%, 72.5%, .25);
+    margin-bottom: 30px;
+}
+
+.covid_19_header{
+    padding: 20px;
+}
+.covid_19_header h1 {
+    margin-bottom: 50px;
+    border-left: 4px solid #ff483c;
+    padding-left: 20px;
+}
+
+.covid_19_sms {
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 86px;
+    line-height: 24px;
+}
+
+.online_registration h2, .sms_registration h2, .Vaccination h2{
+    margin: 17px;
+} 
+
+
+
+
+
+/* Covid 19 vaccine verification End here  */
